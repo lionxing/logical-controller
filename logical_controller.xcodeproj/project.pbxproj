@@ -19,6 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A64C8AF91B5A578800B65D5C /* perdefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = perdefine.h; sourceTree = "<group>"; };
 		A6EC0A9B1B5A4B58003B4728 /* liblogical_controller.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblogical_controller.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -33,41 +34,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A64C8AF31B5A4E4700B65D5C /* task */ = {
+		A64C8AF81B5A578800B65D5C /* config */ = {
 			isa = PBXGroup;
 			children = (
+				A64C8AF91B5A578800B65D5C /* perdefine.h */,
 			);
-			name = task;
+			name = config;
+			path = logical_controller/config;
 			sourceTree = "<group>";
 		};
-		A64C8AF41B5A4E4F00B65D5C /* server */ = {
+		A64C8AFA1B5A578800B65D5C /* server */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = server;
+			path = logical_controller/server;
 			sourceTree = "<group>";
 		};
-		A64C8AF51B5A4E5600B65D5C /* sxp */ = {
+		A64C8AFB1B5A578800B65D5C /* sxp */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = sxp;
+			path = logical_controller/sxp;
 			sourceTree = "<group>";
 		};
-		A64C8AF61B5A528300B65D5C /* config */ = {
+		A64C8AFC1B5A578800B65D5C /* task */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = config;
+			name = task;
+			path = logical_controller/task;
 			sourceTree = "<group>";
 		};
 		A6EC0A921B5A4B58003B4728 = {
 			isa = PBXGroup;
 			children = (
-				A64C8AF61B5A528300B65D5C /* config */,
-				A64C8AF51B5A4E5600B65D5C /* sxp */,
-				A64C8AF41B5A4E4F00B65D5C /* server */,
-				A64C8AF31B5A4E4700B65D5C /* task */,
+				A64C8AF81B5A578800B65D5C /* config */,
+				A64C8AFA1B5A578800B65D5C /* server */,
+				A64C8AFB1B5A578800B65D5C /* sxp */,
+				A64C8AFC1B5A578800B65D5C /* task */,
 				A6EC0A9C1B5A4B58003B4728 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -179,7 +185,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = watchos;
+				SDKROOT = iphoneos;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -214,7 +220,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = watchos;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -225,6 +231,7 @@
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -234,6 +241,7 @@
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
