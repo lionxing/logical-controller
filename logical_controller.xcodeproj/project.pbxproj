@@ -54,9 +54,17 @@
 			name = sxp;
 			sourceTree = "<group>";
 		};
+		A64C8AF61B5A528300B65D5C /* config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
 		A6EC0A921B5A4B58003B4728 = {
 			isa = PBXGroup;
 			children = (
+				A64C8AF61B5A528300B65D5C /* config */,
 				A64C8AF51B5A4E5600B65D5C /* sxp */,
 				A64C8AF41B5A4E4F00B65D5C /* server */,
 				A64C8AF31B5A4E4700B65D5C /* task */,
