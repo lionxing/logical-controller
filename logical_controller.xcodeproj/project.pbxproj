@@ -6,6 +6,12 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A64C8B001B5A5A9600B65D5C /* LogicServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A64C8AFF1B5A5A9600B65D5C /* LogicServer.m */; };
+		A64C8B031B5A5B4600B65D5C /* ServiceExchangePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A64C8B021B5A5B4600B65D5C /* ServiceExchangePoint.m */; };
+		A64C8B061B5A5B8000B65D5C /* LogicTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A64C8B051B5A5B8000B65D5C /* LogicTask.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		A6EC0A991B5A4B58003B4728 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +26,12 @@
 
 /* Begin PBXFileReference section */
 		A64C8AFD1B5A57DF00B65D5C /* predefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = predefine.h; sourceTree = "<group>"; };
+		A64C8AFE1B5A5A9600B65D5C /* LogicServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogicServer.h; sourceTree = "<group>"; };
+		A64C8AFF1B5A5A9600B65D5C /* LogicServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogicServer.m; sourceTree = "<group>"; };
+		A64C8B011B5A5B4600B65D5C /* ServiceExchangePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceExchangePoint.h; sourceTree = "<group>"; };
+		A64C8B021B5A5B4600B65D5C /* ServiceExchangePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceExchangePoint.m; sourceTree = "<group>"; };
+		A64C8B041B5A5B8000B65D5C /* LogicTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogicTask.h; sourceTree = "<group>"; };
+		A64C8B051B5A5B8000B65D5C /* LogicTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogicTask.m; sourceTree = "<group>"; };
 		A6EC0A9B1B5A4B58003B4728 /* liblogical_controller.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblogical_controller.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -46,6 +58,8 @@
 		A64C8AFA1B5A578800B65D5C /* server */ = {
 			isa = PBXGroup;
 			children = (
+				A64C8AFE1B5A5A9600B65D5C /* LogicServer.h */,
+				A64C8AFF1B5A5A9600B65D5C /* LogicServer.m */,
 			);
 			name = server;
 			path = logical_controller/server;
@@ -54,6 +68,8 @@
 		A64C8AFB1B5A578800B65D5C /* sxp */ = {
 			isa = PBXGroup;
 			children = (
+				A64C8B011B5A5B4600B65D5C /* ServiceExchangePoint.h */,
+				A64C8B021B5A5B4600B65D5C /* ServiceExchangePoint.m */,
 			);
 			name = sxp;
 			path = logical_controller/sxp;
@@ -62,6 +78,8 @@
 		A64C8AFC1B5A578800B65D5C /* task */ = {
 			isa = PBXGroup;
 			children = (
+				A64C8B041B5A5B8000B65D5C /* LogicTask.h */,
+				A64C8B051B5A5B8000B65D5C /* LogicTask.m */,
 			);
 			name = task;
 			path = logical_controller/task;
@@ -142,6 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A64C8B001B5A5A9600B65D5C /* LogicServer.m in Sources */,
+				A64C8B061B5A5B8000B65D5C /* LogicTask.m in Sources */,
+				A64C8B031B5A5B4600B65D5C /* ServiceExchangePoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
