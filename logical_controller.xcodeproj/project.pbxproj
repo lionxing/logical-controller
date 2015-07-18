@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6EC0A9F1B5A4B58003B4728 /* logical_controller.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A6EC0A9E1B5A4B58003B4728 /* logical_controller.h */; };
+		A6EC0AA11B5A4B58003B4728 /* logical_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EC0AA01B5A4B58003B4728 /* logical_controller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6EC0A991B5A4B58003B4728 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				A6EC0A9F1B5A4B58003B4728 /* logical_controller.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A6EC0A9B1B5A4B58003B4728 /* liblogical_controller.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblogical_controller.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EC0A9E1B5A4B58003B4728 /* logical_controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logical_controller.h; sourceTree = "<group>"; };
+		A6EC0AA01B5A4B58003B4728 /* logical_controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = logical_controller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6EC0A981B5A4B58003B4728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6EC0A921B5A4B58003B4728 = {
+			isa = PBXGroup;
+			children = (
+				A6EC0A9D1B5A4B58003B4728 /* logical_controller */,
+				A6EC0A9C1B5A4B58003B4728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6EC0A9C1B5A4B58003B4728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6EC0A9B1B5A4B58003B4728 /* liblogical_controller.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6EC0A9D1B5A4B58003B4728 /* logical_controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6EC0A9E1B5A4B58003B4728 /* logical_controller.h */,
+				A6EC0AA01B5A4B58003B4728 /* logical_controller.m */,
+			);
+			path = logical_controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6EC0A9A1B5A4B58003B4728 /* logical_controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EC0AA41B5A4B58003B4728 /* Build configuration list for PBXNativeTarget "logical_controller" */;
+			buildPhases = (
+				A6EC0A971B5A4B58003B4728 /* Sources */,
+				A6EC0A981B5A4B58003B4728 /* Frameworks */,
+				A6EC0A991B5A4B58003B4728 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = logical_controller;
+			productName = logical_controller;
+			productReference = A6EC0A9B1B5A4B58003B4728 /* liblogical_controller.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6EC0A931B5A4B58003B4728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = lionxing;
+				TargetAttributes = {
+					A6EC0A9A1B5A4B58003B4728 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = A6EC0A961B5A4B58003B4728 /* Build configuration list for PBXProject "logical_controller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6EC0A921B5A4B58003B4728;
+			productRefGroup = A6EC0A9C1B5A4B58003B4728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6EC0A9A1B5A4B58003B4728 /* logical_controller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6EC0A971B5A4B58003B4728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EC0AA11B5A4B58003B4728 /* logical_controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A6EC0AA21B5A4B58003B4728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = watchos;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A6EC0AA31B5A4B58003B4728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = watchos;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		A6EC0AA51B5A4B58003B4728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A6EC0AA61B5A4B58003B4728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6EC0A961B5A4B58003B4728 /* Build configuration list for PBXProject "logical_controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EC0AA21B5A4B58003B4728 /* Debug */,
+				A6EC0AA31B5A4B58003B4728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EC0AA41B5A4B58003B4728 /* Build configuration list for PBXNativeTarget "logical_controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EC0AA51B5A4B58003B4728 /* Debug */,
+				A6EC0AA61B5A4B58003B4728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6EC0A931B5A4B58003B4728 /* Project object */;
+}
