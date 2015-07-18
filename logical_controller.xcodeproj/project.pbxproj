@@ -6,11 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		A6EC0A9F1B5A4B58003B4728 /* logical_controller.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A6EC0A9E1B5A4B58003B4728 /* logical_controller.h */; };
-		A6EC0AA11B5A4B58003B4728 /* logical_controller.m in Sources */ = {isa = PBXBuildFile; fileRef = A6EC0AA01B5A4B58003B4728 /* logical_controller.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		A6EC0A991B5A4B58003B4728 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -18,7 +13,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				A6EC0A9F1B5A4B58003B4728 /* logical_controller.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +20,6 @@
 
 /* Begin PBXFileReference section */
 		A6EC0A9B1B5A4B58003B4728 /* liblogical_controller.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblogical_controller.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6EC0A9E1B5A4B58003B4728 /* logical_controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logical_controller.h; sourceTree = "<group>"; };
-		A6EC0AA01B5A4B58003B4728 /* logical_controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = logical_controller.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,10 +33,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A64C8AF31B5A4E4700B65D5C /* task */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = task;
+			sourceTree = "<group>";
+		};
+		A64C8AF41B5A4E4F00B65D5C /* server */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = server;
+			sourceTree = "<group>";
+		};
+		A64C8AF51B5A4E5600B65D5C /* sxp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = sxp;
+			sourceTree = "<group>";
+		};
 		A6EC0A921B5A4B58003B4728 = {
 			isa = PBXGroup;
 			children = (
-				A6EC0A9D1B5A4B58003B4728 /* logical_controller */,
+				A64C8AF51B5A4E5600B65D5C /* sxp */,
+				A64C8AF41B5A4E4F00B65D5C /* server */,
+				A64C8AF31B5A4E4700B65D5C /* task */,
 				A6EC0A9C1B5A4B58003B4728 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,15 +70,6 @@
 				A6EC0A9B1B5A4B58003B4728 /* liblogical_controller.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A6EC0A9D1B5A4B58003B4728 /* logical_controller */ = {
-			isa = PBXGroup;
-			children = (
-				A6EC0A9E1B5A4B58003B4728 /* logical_controller.h */,
-				A6EC0AA01B5A4B58003B4728 /* logical_controller.m */,
-			);
-			path = logical_controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +128,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6EC0AA11B5A4B58003B4728 /* logical_controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +249,7 @@
 				A6EC0AA61B5A4B58003B4728 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
