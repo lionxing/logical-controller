@@ -10,5 +10,6 @@
 #import "predefine.h"
 
 @interface Server_Class : NSObject
-
+-(instancetype)initServerOnMainThread:(BOOL)abool;
+-(instancetype)initServerWithName:(NSString*)threadName onMainthread:(BOOL)abool;
 @end

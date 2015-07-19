@@ -8,6 +8,6 @@
 
 #import "ServiceExchangePoint.h"
 
-@implementation ServiceExchangePoint
+@implementation Service_Exchange_Point_Class
 
 @end

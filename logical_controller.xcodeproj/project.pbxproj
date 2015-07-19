@@ -10,6 +10,8 @@
 		A64C8B001B5A5A9600B65D5C /* LogicServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A64C8AFF1B5A5A9600B65D5C /* LogicServer.m */; };
 		A64C8B031B5A5B4600B65D5C /* ServiceExchangePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A64C8B021B5A5B4600B65D5C /* ServiceExchangePoint.m */; };
 		A64C8B061B5A5B8000B65D5C /* LogicTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A64C8B051B5A5B8000B65D5C /* LogicTask.m */; };
+		A64C8B0D1B5A6A1F00B65D5C /* LogicMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A64C8B0C1B5A6A1F00B65D5C /* LogicMessage.m */; };
+		A64C8B131B5B59EB00B65D5C /* ServerScriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A64C8B121B5B59EB00B65D5C /* ServerScriptManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +34,10 @@
 		A64C8B021B5A5B4600B65D5C /* ServiceExchangePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceExchangePoint.m; sourceTree = "<group>"; };
 		A64C8B041B5A5B8000B65D5C /* LogicTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogicTask.h; sourceTree = "<group>"; };
 		A64C8B051B5A5B8000B65D5C /* LogicTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogicTask.m; sourceTree = "<group>"; };
+		A64C8B0B1B5A6A1F00B65D5C /* LogicMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogicMessage.h; sourceTree = "<group>"; };
+		A64C8B0C1B5A6A1F00B65D5C /* LogicMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogicMessage.m; sourceTree = "<group>"; };
+		A64C8B111B5B59EB00B65D5C /* ServerScriptManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerScriptManager.h; sourceTree = "<group>"; };
+		A64C8B121B5B59EB00B65D5C /* ServerScriptManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerScriptManager.m; sourceTree = "<group>"; };
 		A6EC0A9B1B5A4B58003B4728 /* liblogical_controller.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblogical_controller.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,9 +91,57 @@
 			path = logical_controller/task;
 			sourceTree = "<group>";
 		};
+		A64C8B071B5A5DE100B65D5C /* extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = extension;
+			path = logical_controller/extension;
+			sourceTree = "<group>";
+		};
+		A64C8B081B5A601A00B65D5C /* collection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = collection;
+			path = logical_controller/collection;
+			sourceTree = "<group>";
+		};
+		A64C8B0A1B5A681500B65D5C /* message */ = {
+			isa = PBXGroup;
+			children = (
+				A64C8B0B1B5A6A1F00B65D5C /* LogicMessage.h */,
+				A64C8B0C1B5A6A1F00B65D5C /* LogicMessage.m */,
+			);
+			name = message;
+			path = logical_controller/message;
+			sourceTree = "<group>";
+		};
+		A64C8B0F1B5B59D600B65D5C /* scriptcore */ = {
+			isa = PBXGroup;
+			children = (
+				A64C8B101B5B59D600B65D5C /* jscore */,
+				A64C8B111B5B59EB00B65D5C /* ServerScriptManager.h */,
+				A64C8B121B5B59EB00B65D5C /* ServerScriptManager.m */,
+			);
+			name = scriptcore;
+			path = logical_controller/scriptcore;
+			sourceTree = "<group>";
+		};
+		A64C8B101B5B59D600B65D5C /* jscore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = jscore;
+			sourceTree = "<group>";
+		};
 		A6EC0A921B5A4B58003B4728 = {
 			isa = PBXGroup;
 			children = (
+				A64C8B0F1B5B59D600B65D5C /* scriptcore */,
+				A64C8B0A1B5A681500B65D5C /* message */,
+				A64C8B081B5A601A00B65D5C /* collection */,
+				A64C8B071B5A5DE100B65D5C /* extension */,
 				A64C8AF81B5A578800B65D5C /* config */,
 				A64C8AFA1B5A578800B65D5C /* server */,
 				A64C8AFB1B5A578800B65D5C /* sxp */,
@@ -160,8 +214,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A64C8B0D1B5A6A1F00B65D5C /* LogicMessage.m in Sources */,
 				A64C8B001B5A5A9600B65D5C /* LogicServer.m in Sources */,
 				A64C8B061B5A5B8000B65D5C /* LogicTask.m in Sources */,
+				A64C8B131B5B59EB00B65D5C /* ServerScriptManager.m in Sources */,
 				A64C8B031B5A5B4600B65D5C /* ServiceExchangePoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
